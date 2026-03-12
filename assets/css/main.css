@@ -167,7 +167,7 @@ img {
 
 /* ===== Hero Section ===== */
 .hero {
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   align-items: center;
   background: var(--gradient-dark);
@@ -381,10 +381,25 @@ section {
 
 .stat-item {
   text-align: center;
-  padding: 2rem;
+  padding: 1.5rem;
+}
+
+.stats-section-compact {
+  padding: 3rem 0;
 }
 
 .stat-number {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.5rem;
+}
+
+.stat-number-small {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 3.5rem;
   font-weight: 700;
@@ -430,6 +445,13 @@ section {
   justify-content: center;
   font-size: 4rem;
   color: var(--text-muted);
+  overflow: hidden;
+}
+
+.team-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .team-info {
@@ -484,7 +506,7 @@ section {
   color: var(--primary);
 }
 
-/* ===== Careers ===== */
+/* ===== Recruiting ===== */
 .positions-list {
   max-width: 800px;
   margin: 0 auto;
@@ -637,6 +659,39 @@ section {
   margin-bottom: 0;
 }
 
+/* ===== Partner Grid ===== */
+.partner-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}
+
+.partner-item {
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+.partner-item img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  margin-bottom: 0.75rem;
+}
+
+.partner-item p {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 0;
+}
+
+/* ===== 5D Card Image ===== */
+.card-image {
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: var(--radius-md);
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 1024px) {
   .research-grid {
@@ -657,6 +712,10 @@ section {
 
   .benefits-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .partner-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -715,5 +774,9 @@ section {
 
   .benefits-grid {
     grid-template-columns: 1fr;
+  }
+
+  .partner-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

@@ -51,7 +51,7 @@ We develop physical platforms that understand and adapt to real-world interactio
 | Baek-Gyu Cho | Kookmin Univ. | Legged Robotics |
 | Hae-Won Park | KAIST | Legged Robot System Control |
 | Tae-Won Seo | Hanyang Univ. | Bio-inspired Robotics |
-| Yong-Jae Kim | Korea Tech | Robot Actuator Control |
+| Yong-Jae Kim | Korea Univ. of Technology | Robot Actuator Control |
 
 ---
 
@@ -97,7 +97,7 @@ We create AI foundation models that enable robots to understand and predict phys
 | Jung-Gil Ko | Yonsei Univ. | Mobile Computing, Embedded Systems |
 | Dae-Kyum Kim | Korea Univ. | Robotics, Computer Vision |
 | Sung-Hoon Lim | DGIST | Health Care, Computer Vision |
-| Hyung-Ki Cho | Chonbuk Univ. | Computer Vision, AI/ML |
+| Hyung-Ki Cho | Jeonbuk Univ. | Computer Vision, AI/ML |
 
 ---
 
@@ -132,5 +132,5 @@ We create AI foundation models that enable robots to understand and predict phys
 ---
 
 <div style="text-align: center; margin-top: 3rem;">
-  <a href="{{ '/careers/' | relative_url }}" class="btn btn-primary">Join Our Research Team</a>
+  <a href="{{ '/recruiting/' | relative_url }}" class="btn btn-primary">Join Our Research Team</a>
 </div>

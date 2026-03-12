@@ -11,7 +11,7 @@ title: Home
       <h1>Pioneering <span>5D AI Robotics</span> for Real-World Autonomy</h1>
       <p>We are developing next-generation autonomous robots that understand and interact with the physical world through 5D world models—combining 3D geometry, temporal dynamics, and physical properties.</p>
       <div class="hero-buttons">
-        <a href="{{ '/careers/' | relative_url }}" class="btn btn-primary">Join Our Team</a>
+        <a href="{{ '/recruiting/' | relative_url }}" class="btn btn-primary">Join Our Team</a>
         <a href="{{ '/research/' | relative_url }}" class="btn btn-outline">Explore Research</a>
       </div>
     </div>
@@ -19,24 +19,24 @@ title: Home
 </section>
 
 <!-- Stats Section -->
-<section class="section-light">
+<section class="section-light stats-section-compact">
   <div class="container">
     <div class="stats-grid">
       <div class="stat-item">
-        <div class="stat-number">8+</div>
+        <div class="stat-number">9</div>
         <div class="stat-label">Partner Universities</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">20+</div>
+        <div class="stat-number">23</div>
         <div class="stat-label">Principal Investigators</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">2</div>
-        <div class="stat-label">Research Divisions</div>
+        <div class="stat-number">5</div>
+        <div class="stat-label">Years of Funding (2026-2030)</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">5</div>
-        <div class="stat-label">Years of Funding</div>
+        <div class="stat-number-small">90,000,000</div>
+        <div class="stat-label">Minimum salary (KRW)</div>
       </div>
     </div>
   </div>
@@ -68,7 +68,7 @@ title: Home
         <p>Creating AI foundation models that enable robots to understand and predict physical interactions in complex real-world scenarios.</p>
         <ul>
           <li>5D World Foundation Model with scene graphs</li>
-          <li>Whole-body manipulation foundation models</li>
+          <li>Whole-body locomotion and manipulation foundation models</li>
           <li>Real-time robot response prediction</li>
           <li>Physics-Informed Neural Networks (PINN)</li>
         </ul>
@@ -87,11 +87,13 @@ title: Home
     </div>
     <div class="research-grid">
       <div class="research-card" style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1);">
-        <h3 style="color: var(--white);">5D World Model</h3>
+        <h3 style="color: var(--white); text-align: center;">5D World Model</h3>
+        <img src="{{ '/assets/images/5d.png' | relative_url }}" alt="5D World Model" class="card-image">
         <p style="color: rgba(255,255,255,0.7);">3D Geometry + Time + Physical Properties (material, mass, friction, tactile response)</p>
       </div>
       <div class="research-card" style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1);">
-        <h3 style="color: var(--white);">5D Intelligence System</h3>
+        <h3 style="color: var(--white); text-align: center;">5D Intelligence System</h3>
+        <img src="{{ '/assets/images/5dintelligence.png' | relative_url }}" alt="5D Intelligence System" class="card-image">
         <p style="color: rgba(255,255,255,0.7);">Physical Platform + Perception AI + Situational Foundation Model + Precision Control + Self-Evolving Learning</p>
       </div>
     </div>
@@ -102,42 +104,123 @@ title: Home
 <section class="cta-section">
   <div class="container">
     <h2>Join the Future of Robotics</h2>
-    <p>We are actively recruiting talented postdoctoral researchers to join our world-class team. Work with leading experts from KAIST, GIST, DGIST, and top universities across Korea.</p>
-    <a href="{{ '/careers/' | relative_url }}" class="btn btn-outline">View Open Positions</a>
+    <p>We are actively recruiting talented postdoctoral researchers to join our world-class team. Work with leading experts from KAIST and top universities across Republic of Korea.</p>
+    <a href="{{ '/recruiting/' | relative_url }}" class="btn btn-outline">View Recruiting</a>
   </div>
 </section>
 
-<!-- Partners -->
+<!-- Partner Institutions -->
 <section>
   <div class="container">
     <div class="section-header">
       <h2>Partner Institutions</h2>
-      <p>A collaborative initiative bringing together Korea's leading research universities.</p>
     </div>
-    <div class="stats-grid">
-      <div class="stat-item">
-        <div class="stat-label" style="font-size: 1.25rem; font-weight: 600; color: var(--text-dark);">KAIST</div>
+
+    <h3 style="text-align: center; margin-bottom: 2rem;">Universities</h3>
+    <div class="partner-grid" style="margin-bottom: 4rem;">
+      <div class="partner-item">
+        <img src="{{ '/assets/images/kaist.png' | relative_url }}" alt="KAIST">
+        <p>KAIST</p>
       </div>
-      <div class="stat-item">
-        <div class="stat-label" style="font-size: 1.25rem; font-weight: 600; color: var(--text-dark);">GIST</div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/gist.png' | relative_url }}" alt="GIST">
+        <p>GIST</p>
       </div>
-      <div class="stat-item">
-        <div class="stat-label" style="font-size: 1.25rem; font-weight: 600; color: var(--text-dark);">DGIST</div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/dgist.png' | relative_url }}" alt="DGIST">
+        <p>DGIST</p>
       </div>
-      <div class="stat-item">
-        <div class="stat-label" style="font-size: 1.25rem; font-weight: 600; color: var(--text-dark);">Yonsei University</div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/yonsei.png' | relative_url }}" alt="Yonsei University">
+        <p>Yonsei University</p>
       </div>
-      <div class="stat-item">
-        <div class="stat-label" style="font-size: 1.25rem; font-weight: 600; color: var(--text-dark);">Korea University</div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/korea.png' | relative_url }}" alt="Korea University">
+        <p>Korea University</p>
       </div>
-      <div class="stat-item">
-        <div class="stat-label" style="font-size: 1.25rem; font-weight: 600; color: var(--text-dark);">Hanyang University</div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/hanyang.png' | relative_url }}" alt="Hanyang University">
+        <p>Hanyang University</p>
       </div>
-      <div class="stat-item">
-        <div class="stat-label" style="font-size: 1.25rem; font-weight: 600; color: var(--text-dark);">Kookmin University</div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/kookmin.png' | relative_url }}" alt="Kookmin University">
+        <p>Kookmin University</p>
       </div>
-      <div class="stat-item">
-        <div class="stat-label" style="font-size: 1.25rem; font-weight: 600; color: var(--text-dark);">Korea Tech</div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/jeonbuk.png' | relative_url }}" alt="Jeonbuk National University">
+        <p>Jeonbuk National University</p>
+      </div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/koreatech.png' | relative_url }}" alt="Korea University of Technology">
+        <p>Korea University of Technology</p>
+      </div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/cmu.png' | relative_url }}" alt="CMU">
+        <p>CMU</p>
+      </div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/tuwien.png' | relative_url }}" alt="TU Wien">
+        <p>TU Wien</p>
+      </div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/stanford.png' | relative_url }}" alt="Stanford">
+        <p>Stanford</p>
+      </div>
+    </div>
+
+    <h3 style="text-align: center; margin-bottom: 2rem;">Research Institutes & Partners</h3>
+    <div class="partner-grid">
+      <div class="partner-item">
+        <img src="{{ '/assets/images/etri.png' | relative_url }}" alt="ETRI">
+        <p>ETRI</p>
+      </div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/keti.png' | relative_url }}" alt="KETI">
+        <p>KETI</p>
+      </div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/kimm.png' | relative_url }}" alt="KIMM">
+        <p>KIMM</p>
+      </div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/kitech.png' | relative_url }}" alt="KITECH">
+        <p>KITECH</p>
+      </div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/urobotics.png' | relative_url }}" alt="URobotics">
+        <p>URobotics</p>
+      </div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/wirobotics.png' | relative_url }}" alt="WIRobotics">
+        <p>WIRobotics</p>
+      </div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/uonrobotics.png' | relative_url }}" alt="UON Robotics">
+        <p>UON Robotics</p>
+      </div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/ujintechnology.png' | relative_url }}" alt="UJIN Technology">
+        <p>UJIN Technology</p>
+      </div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/swanrobotics.png' | relative_url }}" alt="SWAN Robotics">
+        <p>SWAN Robotics</p>
+      </div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/prismai.png' | relative_url }}" alt="PRISM-AI">
+        <p>PRISM-AI</p>
+      </div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/aita.png' | relative_url }}" alt="AITA">
+        <p>AITA</p>
+      </div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/kidr.png' | relative_url }}" alt="KI-DR">
+        <p>KI-DR</p>
+      </div>
+      <div class="partner-item">
+        <img src="{{ '/assets/images/kaistrobotics.png' | relative_url }}" alt="KAIST Robotics Program">
+        <p>KAIST Robotics Program</p>
       </div>
     </div>
   </div>
