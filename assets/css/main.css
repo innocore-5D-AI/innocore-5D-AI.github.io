@@ -108,7 +108,7 @@ img {
 }
 
 .logo-img {
-  height: 80px;
+  height: 5.0em;
   width: auto;
 }
 
@@ -184,7 +184,7 @@ img {
   align-items: center;
   background: var(--gradient-dark);
   color: var(--white);
-  padding-top: 80px;
+  padding-top: 120px;
   position: relative;
   overflow: hidden;
 }
@@ -699,8 +699,11 @@ section {
 
 /* ===== 5D Card Image ===== */
 .card-image {
-  width: 100%;
-  margin: 1rem 0;
+  width: auto;
+  max-width: 100%;
+  max-height: 300px;
+  margin: 1rem auto;
+  display: block;
   border-radius: var(--radius-md);
 }
 
