@@ -1,0 +1,57 @@
+# Site settings
+title: "5D AI Robotics Initiative"
+description: "KAIST-led InnoCORE Research Initiative for 5D AI Robotics - Developing next-generation autonomous robots with 5D world models"
+url: "https://innocore-5D-AI.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Sass settings
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# Collections
+collections:
+  team:
+    output: true
+    permalink: /team/:name/
+  research:
+    output: true
+    permalink: /research/:name/
+
+# Default values
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team-member"
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: "research-area"
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - "*.pptx"
+  - settings.json
+  - README.md
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
